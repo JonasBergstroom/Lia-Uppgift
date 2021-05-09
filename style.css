@@ -1,0 +1,40 @@
+.Button {
+
+    background-image: repeating-linear-gradient( -45deg, transparent, transparent 30px,#2b9dd6 30px, #1bd5ee 60px);
+    background-color: #2acdf6;
+    background-size: 170px 100%;
+    animation: barberpole 2s linear infinite;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-family: Century Gothic;
+    
+    transition: background-color 1s;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    font-size: 13px;
+    padding: 15px 14px;
+    display: flex;
+    width: 15%;
+
+}
+
+@keyframes barberpole { 
+
+    100% { 
+        
+        background-position: 170px 0;
+    
+    }
+
+}
+
+.Button:hover {
+    
+    background-color: #f7f7f7;
+  
+}
+
